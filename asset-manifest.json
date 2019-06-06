@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Jasonjys/weather/static/css/main.2eb59a28.chunk.css",
+    "main.js": "/Jasonjys/weather/static/js/main.605602ba.chunk.js",
+    "main.js.map": "/Jasonjys/weather/static/js/main.605602ba.chunk.js.map",
+    "runtime~main.js": "/Jasonjys/weather/static/js/runtime~main.c2a8cd8d.js",
+    "runtime~main.js.map": "/Jasonjys/weather/static/js/runtime~main.c2a8cd8d.js.map",
+    "static/css/2.62db9acc.chunk.css": "/Jasonjys/weather/static/css/2.62db9acc.chunk.css",
+    "static/js/2.dd863749.chunk.js": "/Jasonjys/weather/static/js/2.dd863749.chunk.js",
+    "static/js/2.dd863749.chunk.js.map": "/Jasonjys/weather/static/js/2.dd863749.chunk.js.map",
+    "index.html": "/Jasonjys/weather/index.html",
+    "precache-manifest.1a5fbbc0fe2246dd0b7ce0955f3e2d32.js": "/Jasonjys/weather/precache-manifest.1a5fbbc0fe2246dd0b7ce0955f3e2d32.js",
+    "service-worker.js": "/Jasonjys/weather/service-worker.js",
+    "static/css/2.62db9acc.chunk.css.map": "/Jasonjys/weather/static/css/2.62db9acc.chunk.css.map",
+    "static/css/main.2eb59a28.chunk.css.map": "/Jasonjys/weather/static/css/main.2eb59a28.chunk.css.map",
+    "static/media/weather-icons.css": "/Jasonjys/weather/static/media/weathericons-regular-webfont.ecaf8b48.svg"
+  }
+}
