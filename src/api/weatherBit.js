@@ -18,4 +18,3 @@ export const parseData = (json) => {
     temp: weatherInfo ? weatherInfo.temp : null
   }
 }
-
