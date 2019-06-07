@@ -45,7 +45,7 @@ class App extends Component {
   };
 
   render() {
-    const { getFieldDecorator, getFieldValue } = this.props.form;
+    const { getFieldDecorator } = this.props.form;
     const { openWeatherMap, weatherBit, loading, err } = this.state;
     return (
       <div style={{ height: '100%', paddingTop: '15%' }}>
@@ -75,7 +75,7 @@ class App extends Component {
           {err && <div style={{display: 'flex', height: 100, alignItems: 'center'}}>City not found</div>}
           {openWeatherMap && (
             <Weather
-              city={getFieldValue('city')}
+              city={openWeatherMap.city}
               iconId={openWeatherMap.iconId}
               source="Open Weather Map"
               temp={openWeatherMap.temp}
@@ -84,7 +84,7 @@ class App extends Component {
           )}
           {weatherBit && (
             <Weather
-              city={getFieldValue('city')}
+              city={weatherBit.city}
               iconId={weatherBit.iconId}
               source="Weather Bit"
               temp={weatherBit.temp}

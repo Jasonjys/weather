@@ -13,6 +13,7 @@ export const parseData = (data) => {
   const weatherInfo = weather.length > 0 ? weather[0] : null
 
   return {
+    city: data.name,
     iconId: weatherInfo.id.toString(),
     description: weatherInfo.description,
     temp: main.temp
